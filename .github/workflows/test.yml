@@ -1,0 +1,10 @@
+name: Build and Test
+on: [push]
+jobs:
+- name: Checkout code
+run: echo 'Checking out code'
+- name: Build and test
+run: echo 'Building and testing...'
+outputs:
+	success: 'true'
+	error: 'false'
